@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clic Rapide - Jeu de Réflexes</title>
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Clic Rapide</h1>
+        
+        <!-- Affichage du score -->
+        <div class="score-container">
+            <span id="score">0</span>
+        </div>
+        
+        <!-- Timer du jeu -->
+        <div class="timer">
+            Temps: <span id="time">10</span>s
+        </div>
+        
+        <!-- Zone de jeu avec la cible -->
+        <div class="game-area">
+            <div class="target" id="target">CLIC!</div>
+        </div>
+        
+        <!-- Boutons de contrôle -->
+        <div class="controls">
+            <button id="startBtn">Commencer</button>
+        </div>
+        
+        <!-- Instructions du jeu -->
+        <div class="instructions">
+            Clique le plus de fois possible sur le cercle jaune en 10 secondes!
+        </div>
+    </div>
+
+    <!-- Lien vers le fichier JavaScript externe -->
+    <script src="static/js/app.js"></script>
+</body>
+</html>
